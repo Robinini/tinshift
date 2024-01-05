@@ -34,7 +34,7 @@ const tinshift_config = {name: "tinshift",
 Create the tinshift transformer
 
 ```javascript
-this.transformer = new TinShift(tinshift_config);
+const transformer = new TinShift(tinshift_config);
 ```
 
 Use the transformer to convert coordinates (`[x, y]`) from source system to target system
@@ -51,4 +51,4 @@ The `TinShift` class creates two OpenLayers Vector Sources (using source and tar
 ## Development status (as of Jan 2024)
 This is the first working version of my first NPM/JS package, created for use with the OpenLayers extension [Tinmap](https://github.com/Robinini/tinmap).
 
-It will be continually tested and improved. Open to [hints and tips](https://github.com/Robinini/tinshift/issues) form the community.
+It will be continually tested and improved. Open to [hints and tips](https://github.com/Robinini/tinshift/issues) from the community.

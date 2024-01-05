@@ -112,6 +112,8 @@ class TinShift {
   }
   get_barycentric_coords(coordinate, forwards=true){
     // Returns object {vetex_index_1: barycentric_scalar_1, ...}
+
+    if (coordinate === null) return null;
     
     // Determine which VectorSource to use
     const triangles = forwards ? this.delauney_source : this.delauney_target;
@@ -166,7 +168,7 @@ class TinShift {
     const bary = this.get_barycentric_coords(coordinate, true);
 
     if(bary === null) {
-      console.log('Barymetric coordinates are null');
+      console.debug('Barymetric coordinates are null');
       return null;
     }
     else {
@@ -180,8 +182,6 @@ class TinShift {
   inverse(coordinate){
     console.debug('Transforming coordinate backwards: ' + coordinate);
     const bary = this.get_barycentric_coords(coordinate, false);
-
-    console.log('Bary Info:' + bary);
 
     if(bary === null) {
       console.log('Barymetric coordinates are null');

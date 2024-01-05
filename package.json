@@ -1,6 +1,6 @@
 {
   "name": "tinshift",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tinshift module to transform coordinats using TIN mesh",
   "keywords": [
     "map",
