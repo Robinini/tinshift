@@ -3,6 +3,13 @@ Tinshift module to transform coordinates using TIN mesh.
 
 Minimal 2D Triangulated Irregular Network based transformation implementation based on input structure of https://proj.org/en/9.3/operations/transformations/tinshift.html
 
+## Installation
+
+This package is [hosted on npm](https://www.npmjs.com/package/tinshift) so you can install it with npm
+
+```
+npm i tinshift
+```
 
 ## Use
 

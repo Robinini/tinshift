@@ -11,7 +11,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Robinini/tinshift.git"
+    "url": "git+https://github.com/Robinini/tinshift.git"
   },
   "main": "tinshift.js",
   "bugs": {
