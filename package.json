@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Robinini/tinshift.git"
   },
-  "main": "tinshift.js",
+  "main": "index.js",
   "bugs": {
     "url": "https://github.com/Robinini/tinshift/issues"
   },
