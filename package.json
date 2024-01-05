@@ -1,0 +1,28 @@
+{
+  "name": "tinshift",
+  "version": "0.1.0",
+  "description": "Tinshift module to transform coordinats using TIN mesh",
+  "keywords": [
+    "map",
+    "mapping",
+    "openlayers"
+  ],
+  "homepage": "https://github.com/Robinini/tinshift/",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robinini/tinshift.git"
+  },
+  "main": "tinshift.js",
+  "bugs": {
+    "url": "https://github.com/Robinini/tinshift/issues"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "author": "Robin Dainton",
+  "license": "BSD 2-clause",
+  "dependencies": {
+    "ol": "^8.2.0"
+  }
+}
