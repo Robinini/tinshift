@@ -165,7 +165,9 @@ class TinShift {
   }
   forward(coordinate){
     console.debug('Transforming coordinate forwards: ' + coordinate);
+    console.log('A');
     const bary = this.get_barycentric_coords(coordinate, true);
+    console.log('B');
 
     if(bary === null) {
       console.debug('Barymetric coordinates are null');
